@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 import Socials from './Socials';
+import '../styling/Contact.css';
 
 
 export default function Contact () {

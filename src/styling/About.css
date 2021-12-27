@@ -1,0 +1,27 @@
+.about {
+    margin-top: 7%;
+    font-family: 'Roboto Mono', sans-serif;
+  }
+  
+  .abt-paras {
+    width: 55%;
+    position: relative;
+    left: 35%;
+    /* margin-bottom: -25%; */
+    margin-top: -20%;
+  }
+  
+  .abt-img {
+    width: 25%;
+    height: 50vh;
+    border-radius: 10%;
+    position: relative;
+    margin-top: 1%;
+    right: 28%;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  } 
+  
+  

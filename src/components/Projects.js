@@ -7,7 +7,7 @@ import '../styling/Projects.css';
 
 export default function Projects() {
     return (
-        <div className='carousel-div'>
+        <div className='projects-div'>
             
             <TypeWriterEffect
             textStyle={{
@@ -27,29 +27,29 @@ export default function Projects() {
             typeSpeed={400}
             />
 
-<h2>Updated Frequently</h2>
-<div className='pro-cont'>
-    <div class="example">
-      <img src={photo} width="400" height="300" alt="house" />
-      <div class="fadedbox">
-        <div class="title text"> Tic Tac Toe </div>
-        <p>A react app that allow users to play tic-tac-toe against one another.</p>
-        <a href='https://react-tic-tac-toe-fun.netlify.app/' className='links'>Link</a>
-        <a href='https://github.com/xokeixo/Tic-Tac-Toe' className='links'>Code</a>
-      </div>
-    </div>
-            
-    <div class="example2">
-      <img src={photo} width="400" height="300" alt="house" />
-      <div class="fadedbox">
-        <div class="title text"> Tic Tac Toe </div>
-        <p>A react app that allow users to play tic-tac-toe against one another.</p>
-        <a href='https://react-tic-tac-toe-fun.netlify.app/' className='links'>Link</a>
-        <a href='https://github.com/xokeixo/Tic-Tac-Toe' className='links'>Code</a>
-      </div>
-    </div>
-</div>          
-            
+    <h2>Updated Frequently</h2>
+    <div className='pro-cont'>
+        <div class="example">
+        <img src={photo} width="400" height="300" alt="house" />
+        <div class="fadedbox">
+            <div class="title text"> Tic Tac Toe </div>
+            <p>A react app that allow users to play tic-tac-toe against one another.</p>
+            <a href='https://react-tic-tac-toe-fun.netlify.app/' className='links'>Link</a>
+            <a href='https://github.com/xokeixo/Tic-Tac-Toe' className='links'>Code</a>
+        </div>
+        </div>
+                
+        <div class="example2">
+        <img src={photo} width="400" height="300" alt="house" />
+        <div class="fadedbox">
+            <div class="title text"> Tic Tac Toe </div>
+            <p>A react app that allow users to play tic-tac-toe against one another.</p>
+            <a href='https://react-tic-tac-toe-fun.netlify.app/' className='links'>Link</a>
+            <a href='https://github.com/xokeixo/Tic-Tac-Toe' className='links'>Code</a>
+        </div>
+        </div>
+    </div>          
+                
 
             
             

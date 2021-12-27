@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styling/Header.css';
 import TypeWriterEffect from 'react-typewriter-effect';
 
 

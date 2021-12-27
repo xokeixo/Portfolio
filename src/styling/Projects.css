@@ -1,4 +1,8 @@
 /* TIC TAC TOE */
+.projects-div {
+  margin-top: 15%;
+}
+
 .example {
     cursor: pointer;
     height: 300px;

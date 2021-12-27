@@ -1,0 +1,34 @@
+.header {
+    margin-top: 10%;
+    font-family: 'Roboto Mono', sans-serif;
+  }
+  h1, .head-h2, .head-h3 {
+    text-align: left;
+    position: relative;
+    left: 20%;
+    color: #000;
+    font-family: 'Roboto Mono', sans-serif;
+  }
+  .head-h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .head-h3 {
+    line-height: 100%;
+    font-weight: 100;
+    font-size: 1.3rem;
+  }
+  
+  /* ARROW */
+  .arrow {
+    border: solid #6D466B;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  

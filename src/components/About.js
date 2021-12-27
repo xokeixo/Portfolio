@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styling/About.css';
 import photo from '../images/me.jpg';
 import TypeWriterEffect from 'react-typewriter-effect';
 import { FaHtml5, FaGithub, FaReact, FaPython, FaJava, FaCss3, FaNodeJs } from 'react-icons/fa'
