@@ -32,3 +32,12 @@
     -webkit-transform: rotate(45deg);
   }
   
+  @media only screen and (max-width: 600px) {
+    .header {
+      margin-top: 20%;
+    }
+    .head-h3 {
+      font-size: 0.9rem;
+    }
+    
+  }
