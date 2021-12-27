@@ -14,13 +14,13 @@ export default function Projects() {
             color: '#B49FCC',
             fontWeight: 300,
             fontSize: '3em',
-            marginLeft: '20%',
+            marginLeft: '25%',
             fontFamily: 'Seaweed Script',
             }}
             
             cursorColor="#B49FCC"
             multiText={[
-            'PROJECTS',
+            'Projects',
             ]}
             loop={true}
             nextTextDelay={1000}

@@ -13,7 +13,7 @@ export default function About() {
             color: '#B49FCC',
             fontWeight: 300,
             fontSize: '3em',
-            marginLeft: '20%',
+            marginLeft: '25%',
             fontFamily: 'Seaweed Script',
             }}
             

@@ -29,7 +29,7 @@ export default function Header() {
             <br/>
             <h3 className='head-h3'>I am a software engineer from New Orleans, LA.<br/> 
             I like creating custom websites to help make those<br/> around me lives easier and efficient.</h3>
-            <br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/>
             <i class='arrow down'></i>
         </div>
     )
