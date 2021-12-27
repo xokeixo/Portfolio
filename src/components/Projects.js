@@ -1,21 +1,65 @@
 import React from 'react';
-import mac from '../images/mac.png';
-import { Carousel } from 'react-bootstrap';
+// import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import TypeWriterEffect from 'react-typewriter-effect';
+import photo from '../images/tic-tac-toe.png';
+import '../styling/Projects.css';
 
 export default function Projects() {
     return (
-        <div className='idk'>
-            <h2 className='projects' id='projects'>Projects</h2>
-            <Carousel>
+        <div className='carousel-div'>
+            
+            <TypeWriterEffect
+            textStyle={{
+            color: '#B49FCC',
+            fontWeight: 300,
+            fontSize: '3em',
+            marginLeft: '20%',
+            fontFamily: 'Seaweed Script',
+            }}
+            
+            cursorColor="#B49FCC"
+            multiText={[
+            'PROJECTS',
+            ]}
+            loop={true}
+            nextTextDelay={1000}
+            typeSpeed={400}
+            />
+
+<h2>Updated Frequently</h2>
+<div className='pro-cont'>
+    <div class="example">
+      <img src={photo} width="400" height="300" alt="house" />
+      <div class="fadedbox">
+        <div class="title text"> Tic Tac Toe </div>
+        <p>A react app that allow users to play tic-tac-toe against one another.</p>
+        <a href='https://react-tic-tac-toe-fun.netlify.app/' className='links'>Link</a>
+        <a href='https://github.com/xokeixo/Tic-Tac-Toe' className='links'>Code</a>
+      </div>
+    </div>
+            
+    <div class="example2">
+      <img src={photo} width="400" height="300" alt="house" />
+      <div class="fadedbox">
+        <div class="title text"> Tic Tac Toe </div>
+        <p>A react app that allow users to play tic-tac-toe against one another.</p>
+        <a href='https://react-tic-tac-toe-fun.netlify.app/' className='links'>Link</a>
+        <a href='https://github.com/xokeixo/Tic-Tac-Toe' className='links'>Code</a>
+      </div>
+    </div>
+</div>          
+            
+
+            
+            
+            {/* <Carousel>
                 <Carousel.Item>
-                    <img src={mac} alt='mac cpu' className='mac' />
+                    <img src={tictactoe} alt='mac cpu' className='mac' />
                     <Carousel.Caption className='caption'>
-                        <p>This is a caption.</p>
-                        <button>Link</button>
-                        <button>Code</button>
+                        <p>A react app that allow users to play tic-tac-toe against one another.</p>
+                        <a href='https://react-tic-tac-toe-fun.netlify.app/' className='links'>Link</a>
+                        <a href='https://github.com/xokeixo/Tic-Tac-Toe' className='links'>Code</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -26,7 +70,7 @@ export default function Projects() {
                         <button>Code</button>
                     </Carousel.Caption>
                 </Carousel.Item>
-            </Carousel>
+            </Carousel> */}
         </div>
     )
 }

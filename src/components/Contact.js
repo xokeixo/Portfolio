@@ -1,63 +1,47 @@
-import React from "react"
-import emailjs from "emailjs-com"
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
+import Socials from './Socials';
 
-import { Button, Form, Input, Container, TextArea } from "semantic-ui-react"
 
-export default function ContactUs() {
-  function sendEmail(event) {
-    event.preventDefault()
+export default function Contact () {
+  const form = useRef();
 
-    emailjs
-      .sendForm(
-        "contact-me",
-        "template_7tqernc",
-        event.target,
-        "user_pbF5YtfJWb0kcFjz7xJ07"
-      )
-      .then(
-        result => {
-          console.log(result.text)
-        },
-        error => {
-          console.log(error.text)
-        }
-      )
-  }
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('contact-me', 'template_7tqernc', form.current, 'user_pbF5YtfJWb0kcFjz7xJ07')
+      .then((result) => {
+          console.log(result.text);
+          Swal.fire({
+              icon: 'success',
+              title: 'Message Sent Successfully'
+          })
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
 
   return (
-   <Container>
-      <Grid centered>
-        <Grid.Column computer={8} mobile={16}>
-          <Form onSubmit={sendEmail}>
-            <Form.Field
-              control={Input}
-              label="Email"
-              name="email"
-              placeholder="Write your Email..."
-              type="email"
-              required
-            />
-            <Form.Field
-              control={Input}
-              label="Subject"
-              name="subject"
-              placeholder="Write your Subject..."
-              required
-            />
-            <Form.Field
-              control={TextArea}
-              label="Message"
-              name="message"
-              placeholder="Write your Message..."
-              required
-            />
-            <Button primary type="submit" size="large" fluid>
-              Send
-            </Button>
-          </Form>
-        </Grid.Column>
-      </Grid>
-    </Container>
-
-// const serviceID = 'default_service';
-// const templateID = 'template_7tqernc';
+      <div class='contact' id='contact'>
+        <form ref={form} onSubmit={sendEmail}>
+            <div className='contact-me'>
+                <h2>Contact Me</h2>
+                <br/>
+                <p>If you ever want to connect even aside from programming, feel free to send me a message here or connect with me on my other platforms.</p>
+                <Socials />
+            </div>
+            <div className='form-inputs'>
+                <input type='text' name='user_name' className='form-field' placeholder='name' />
+                <br/><br/>
+                <input type='email' name='user_email' className='form-field' placeholder='email' />
+                <br/><br/>
+                <textarea name='message' className='message-field' placeholder='message' />
+                <br/>
+                <input type='submit' value='Send' className='submitBtn' />
+            </div>
+        </form>
+    </div>
+  );
+};
