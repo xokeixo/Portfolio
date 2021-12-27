@@ -27,10 +27,9 @@ export default function Projects() {
             typeSpeed={400}
             />
 
-    <h2>Updated Frequently</h2>
     <div className='pro-cont'>
         <div class="example">
-        <img src={photo} width="400" height="300" alt="house" />
+        <img src={photo} width="400" height="300" alt="house" className='proj-img' />
         <div class="fadedbox">
             <div class="title text"> Tic Tac Toe </div>
             <p>A react app that allow users to play tic-tac-toe against one another.</p>
@@ -40,7 +39,7 @@ export default function Projects() {
         </div>
                 
         <div class="example2">
-        <img src={photo} width="400" height="300" alt="house" />
+        <img src={photo} width="400" height="300" alt="house" className='proj-img' />
         <div class="fadedbox">
             <div class="title text"> Tic Tac Toe </div>
             <p>A react app that allow users to play tic-tac-toe against one another.</p>

@@ -113,3 +113,25 @@
   .pro-cont {
       display: flex;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .projects-div {
+      /* display: flex; */
+    }
+    .example {
+      display: flex;
+      height: 60vh;
+      width: 200%;
+      margin-top: 10%;
+      margin-left: 17%;
+      
+    }
+    .example2 {
+      display: flex;
+      height: 60vh;
+      width: 200%;
+      margin-top: 70%;
+      margin-left: -83%;
+    }
+  }
