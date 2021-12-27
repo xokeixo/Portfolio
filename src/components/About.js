@@ -5,21 +5,21 @@ export default function About() {
 
     return (
         <div className='about' id='about'>
-        <div className='abt-para'>
-        <p className='abt-paras'>
-            <h4>About Me</h4>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br/>
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br/>
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br/>
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <br/>
-            culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        </div>
-        <div className='about-img'>
+            <h2 className='about-me'>About Me</h2>
+            <div className='about-img'>
             <img src={photo} alt='capricorn-goat' className='abt-img' />
-        </div>
+            </div>
+            
+            <p className='skills-paras'>Javascript, HTML, CSS, NodeJS, React, Redux, Phython, SQL</p>
+
+            <p className='abt-paras'>
+                I am a student at Bloom Technology and Institute currently fulfilling my dream as a fullstack developer. I started coding in 2005 in which I never took very serious. So here I am, 17 years later, doing something that I absolutely enjoy all whilst making others lives easier. 
+            </p>
+            
+
+            
+
+            
     </div>
     )
 }

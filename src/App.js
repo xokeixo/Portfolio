@@ -5,6 +5,8 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import ContactForm from './components/ContactForm';
 import About from './components/About';
+import Socials from './components/Socials';
+// import Contact from './components/Contact';
 
 
 function App() {
@@ -13,9 +15,11 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <Socials />
       <Header />
-      <Projects />
       <About />
+      <Projects />
+      {/* <Contact /> */}
       <ContactForm />
     </div>
   );

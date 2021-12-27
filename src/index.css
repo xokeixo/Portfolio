@@ -1,12 +1,9 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: blue;
-  color: white;
+  overflow-x: hidden;
 }
 
 code {
@@ -14,55 +11,174 @@ code {
     monospace;
 }
 
-/* Nav styling */
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  color: #B49FCC;
+}
+
+p {
+  color: #B49FCC;
+}
+
+/* NAVIGATION STYLING */
+.nav {
+  background-color: #B49FCC;
+  width: 100%;
+  height: 10vh;
+}
 nav a {
-  color: white;
+  color: #FFF;
   text-decoration: none;
-  display: inline-block;
-  padding: 2%;
-  margin: auto;
+  display: inline;
+  padding: 6%;
+  top: 45%;
   position: relative;
-  left: 20%;
-  font-size: 1.2rem;
+  left: 300%;
+  font-size: 1rem;
+  font-weight: bolder;
+  background-color: #B49FCC;
 }
 
 nav a:hover {
-  color: black;
+  color: #6D466B;
 }
 
-/* Header styling */
+/* HEADER STYLING */
 .header {
-  width: 100%;
-  height: 85vh;
+  line-height: 300%;
+  margin-top: 2%;
 }
-
-/* Projects styling */
-.sect {
-  display: flex;
-  justify-content: center;
-}
-
-.mac-cpu {
-  width: 80%;
-  height: 50vh;
-  border-radius: 10%;
-}
-
-
-/* About styling */
-.about {
-  display: flex;
-  justify-content: center;
-  background-color: blueviolet;
-  width: 100%;
+h1, .head-h2, .head-h3 {
   text-align: left;
+  position: relative;
+  left: 20%;
+  color: #B49FCC;
 }
+.head-h2 {
+  font-size: 2.1rem;
+  font-weight: 100;
+}
+.head-h3 {
+  line-height: 100%;
+  font-weight: 100;
+}
+
+/* ABOUT STYLING */
+.about {
+  margin-top: 2%;
+}
+
+.about-me {
+  width: 30%;
+  position: relative;
+  left: 35%;
+}
+
 .abt-img {
+  width: 20%;
+  height: 40vh;
+  border-radius: 60%;
+  position: relative;
+  margin-top: 1%;
+}
+
+p {
+  font-size: 1.2rem;
+} 
+
+.skills-paras {
+  margin-top: 2%;
+  color: #6d466b;
+}
+
+.abt-paras {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 25%;
+}
+
+
+
+/* SOCIALS STYLING */
+.socials {
+  position: fixed;
+}
+.socials a {
+  display: block;
+  width: 10%;
+  line-height: 550%;
+  margin-left: 55%;
+}
+
+.soc {
+  color: #b49fcc;
+}
+
+.soc:hover {
+  color: plum;
+}
+
+/* PROJECTS STYLING */
+.carousel {
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: #B49FCC;
+  border-radius: 20px;
+}
+
+.carousel-caption p {
+  color: #6d466b;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.mac {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
 }
 
-.about-img, .abt-paras {
-  padding: 5%;
+button {
+  background-color: #B49FCC;
+  color: white;
 }
 
+/* FORM STYLING */
+.contact {
+  color: #412234;
+  background-color: #B49FCC;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form-fields {
+  border-radius: 25px;
+  width: 30%;
+  height: 4vh;
+}
+
+.contact, .email-form {
+  display: flex;
+}
+
+.submitBtn {
+  background-color: #6d466b;
+  color: white;
+  border-radius: 25px;
+  border: 1px solid #6d466b;
+  height: 4vh;
+  align-items: center;
+  align-content: center;
+}
+
+.submitBtn:hover {
+  background-color: #412234;
+  color: white;
+}
