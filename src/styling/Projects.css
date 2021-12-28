@@ -118,6 +118,7 @@
   @media only screen and (max-width: 480px) {
     .projects-div {
       width: 90%;
+      margin-top: 25%;
     }
     .example {
       display: flex;

@@ -53,6 +53,9 @@
   
 
   @media only screen and (max-width: 480px) {
+    .contact {
+      margin-top: -20%;
+    }
     p {
       font-size: 0.7rem;;
     }
