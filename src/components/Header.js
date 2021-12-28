@@ -24,7 +24,7 @@ export default function Header() {
                 ]}
                 loop={true}
                 nextTextDelay={1000}
-                typeSpeed={700}
+                typeSpeed={200}
                 />
             </div>
             <br/>
