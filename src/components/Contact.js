@@ -34,11 +34,11 @@ export default function Contact () {
                 <Socials />
             </div>
             <div className='form-inputs'>
-                <input type='text' name='user_name' className='form-field' placeholder='name' />
+                <input type='text' name='user_name' className='form-field' placeholder='name' required />
                 <br/><br/>
-                <input type='email' name='user_email' className='form-field' placeholder='email' />
+                <input type='email' name='user_email' className='form-field' placeholder='email' required />
                 <br/><br/>
-                <textarea name='message' className='message-field' placeholder='message' />
+                <textarea name='message' className='message-field' placeholder='message' required />
                 <br/>
                 <input type='submit' value='Send' className='submitBtn' />
             </div>

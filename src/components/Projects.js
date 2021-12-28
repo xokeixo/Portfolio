@@ -8,24 +8,25 @@ import '../styling/Projects.css';
 export default function Projects() {
     return (
         <div className='projects-div'>
-            
-            <TypeWriterEffect
-            textStyle={{
-            color: '#B49FCC',
-            fontWeight: 300,
-            fontSize: '3em',
-            marginLeft: '25%',
-            fontFamily: 'Seaweed Script',
-            }}
-            
-            cursorColor="#B49FCC"
-            multiText={[
-            'Projects',
-            ]}
-            loop={true}
-            nextTextDelay={1000}
-            typeSpeed={400}
-            />
+            <div className='my-projects'>
+                <TypeWriterEffect
+                textStyle={{
+                color: '#B49FCC',
+                fontWeight: 300,
+                fontSize: '3em',
+                marginLeft: '25%',
+                fontFamily: 'Seaweed Script',
+                }}
+                
+                cursorColor="#B49FCC"
+                multiText={[
+                'Projects',
+                ]}
+                loop={true}
+                nextTextDelay={1000}
+                typeSpeed={400}
+                />
+            </div>
 
     <div className='pro-cont'>
         <div class="example">

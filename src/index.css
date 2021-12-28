@@ -26,11 +26,6 @@ p {
   color: #000;
 }
 
-@media only screen and (max-width: 600px) {
-  p {
-    font-size: 0.1rem;
-  }
-}
 
 /* PROJECTS STYLING */
 /* .projects-div {

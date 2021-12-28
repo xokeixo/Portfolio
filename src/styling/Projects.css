@@ -115,23 +115,26 @@
   }
 
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 480px) {
     .projects-div {
-      /* display: flex; */
+      width: 90%;
     }
     .example {
       display: flex;
       height: 60vh;
       width: 200%;
       margin-top: 10%;
-      margin-left: 17%;
+      margin-left: 5%;
       
     }
     .example2 {
       display: flex;
       height: 60vh;
       width: 200%;
-      margin-top: 70%;
-      margin-left: -83%;
+      margin-top: 95%;
+      margin-left: -95%;
+    }
+    .my-projects {
+      margin-right: 27%;
     }
   }
