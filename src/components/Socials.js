@@ -12,16 +12,16 @@ import {
 export default function Socials() {
     return (
         <div className='socials'>
-            <a href='twitter.com/keicodes' className='twitter soc'>
+            <a href='http://www.twitter.com/keicodes' className='twitter soc'>
               <FontAwesomeIcon icon={faTwitter} size='2x' />  
             </a>
-            <a href='twitter.com/keicodes' className='facebook soc'>
+            <a href='http://www.facebok.com/iammarkeisha' className='facebook soc'>
               <FontAwesomeIcon icon={faFacebook} size='2x' />  
             </a>
-            <a href='twitter.com/keicodes' className='linkedin soc'>
+            <a href='http://www.linkedin.com/in/markeisha-wallace' className='linkedin soc'>
               <FontAwesomeIcon icon={faLinkedin} size='2x' />  
             </a>
-            <a href='twitter.com/keicodes' className='instagram soc'>
+            <a href='http://www.instagram.com/xokeixo' className='instagram soc'>
               <FontAwesomeIcon icon={faInstagram} size='2x' />  
             </a>
         </div>

@@ -33,7 +33,7 @@ export default function Projects() {
         <img src={photo} width="400" height="300" alt="house" className='proj-img' />
         <div class="fadedbox">
             <div class="title text"> Tic Tac Toe </div>
-            <p>A react app that allow users to play tic-tac-toe against one another.</p>
+            <p>A react app that allow users to play tic-tac-toe against<br/> one another.</p>
             <a href='https://react-tic-tac-toe-fun.netlify.app/' className='links'>Link</a>
             <a href='https://github.com/xokeixo/Tic-Tac-Toe' className='links'>Code</a>
         </div>
@@ -43,7 +43,7 @@ export default function Projects() {
         <img src={photo} width="400" height="300" alt="house" className='proj-img' />
         <div class="fadedbox">
             <div class="title text"> Tic Tac Toe </div>
-            <p>A react app that allow users to play tic-tac-toe against one another.</p>
+            <p>A react app that allow users to play tic-tac-toe against<br/> one another.</p>
             <a href='https://react-tic-tac-toe-fun.netlify.app/' className='links'>Link</a>
             <a href='https://github.com/xokeixo/Tic-Tac-Toe' className='links'>Code</a>
         </div>
