@@ -36,7 +36,7 @@ export default function Projects() {
         <section>
                 <h1 className='game'>Tic Tac Toe</h1>
                 <h6><em>Framework:</em> Javascript | <em>Languages:</em> HTML/CSS, Javascript | <em>Libraries:</em> React | <em>Tools:</em> VS Code, Github</h6>
-                <p> 
+                <p className='desc'> 
                     A react app that allow users to play tic-tac-toe against one another.
                 </p>
                 <p>
@@ -47,7 +47,7 @@ export default function Projects() {
         <section>
             <h1 className='fitness'>Anywhere Fitness</h1>
                 <h6><em>Framework:</em> Javascript | <em>Languages:</em> Javascript | <em>Libraries:</em> React, Redux, Axios, Yup | <em>Tools:</em> VS Code, Github</h6>
-                <p> 
+                <p className='desc'> 
                 Created an easy to use interface that helped users add or register for fitness classes that fit their schedule.
                 </p>
                 <p>
@@ -58,7 +58,7 @@ export default function Projects() {
         <section>
             <h1 className='recipes'>Secret Family Recipes API</h1>
                 <h6><em>Framework:</em> Javascript, Express | <em>Languages:</em> Javascript, SQLite, Typescript | <em>Libraries:</em> React, Redux | <em>Tools:</em> VS Code, Github, Heroku</h6>
-                <p> 
+                <p className='desc'> 
                 Created an easy to use interface that helped users add or register for fitness classes that fit their schedule.
                 </p>
                 <p>

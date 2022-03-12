@@ -14,9 +14,9 @@ h6 {
   margin-left: 20%;
 }
 
-p {
+desc {
   width: 70%;
-  margin-left: 15%;
+  margin-left: 185%;
 }
 
 em {
@@ -27,7 +27,8 @@ em {
   display: flex;
   margin-left: 48%;
   text-decoration: none;
-  color: #412234
+  color: #412234;
+  width: 30%;
 }
 
 .links:hover {

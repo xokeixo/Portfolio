@@ -11,8 +11,12 @@
   .contact-me {
     margin-top: 10%;
     position: relative;
-    width: 25%;
+    width: 35%;
     left: 11%;
+  }
+
+  p {
+    margin-left: 0%;
   }
   
   .form-inputs {
