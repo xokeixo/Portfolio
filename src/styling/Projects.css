@@ -158,9 +158,35 @@ em {
   @media only screen and (max-width: 480px) {
     .projects-div {
       width: 90%;
-      margin-top: 25%;
+      margin-top: 2%;
     }
-    .example {
+    .pro-cont {
+      margin-top: 2%;
+    }
+    h1 {
+      margin-left: 20%;
+      font-size: 1.3rem;
+    }
+    .fitness {
+      margin-left: 15%;
+    }
+    .recipes {
+      margin-left: 0%;
+    }
+    h6 {
+      width: 100%;
+      margin-left: 8%;
+      font-size: 0.6rem;
+    }
+    p {
+      width: 100%;
+      margin-left: 8%;
+    }
+    .links {
+      margin-top: -2%;
+      margin-left: 46%;
+    }
+    /* .example {
       display: flex;
       height: 60vh;
       width: 200%;
@@ -174,8 +200,8 @@ em {
       width: 200%;
       margin-top: 95%;
       margin-left: -95%;
-    }
+    } */
     .my-projects {
-      margin-right: 27%;
+      margin-right: 10%;
     }
   }
