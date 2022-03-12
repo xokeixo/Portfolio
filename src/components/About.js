@@ -28,7 +28,7 @@ export default function About() {
                 />
             </div>
             <div className='about-img'>
-            <img src={photo} alt='an image of myself near Dallas skyline' className='abt-img' />
+            <img src={photo} alt='markeisha' className='abt-img' />
             </div>
            
             <p className='abt-paras'>

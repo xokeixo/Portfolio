@@ -31,7 +31,7 @@ export default function Header() {
             <h2 className='head-h2'>I like to build things.</h2>
             <br/>
             <h3 className='head-h3'>I am a software engineer that resides in McKinney, TX.<br/> 
-            I like creating custom websites to help make those<br/> around me lives easier and efficient.</h3>
+            I like creating custom applications to help make those<br/> around me lives easier and efficient.</h3>
             <br/><br/><br/><br/><br/><br/><br/>
             <i class='arrow down'></i>
         </div>
