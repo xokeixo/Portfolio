@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styling/About.css';
-import photo from '../images/me.jpg';
+import photo from '../images/markeisha.jpg';
 import TypeWriterEffect from 'react-typewriter-effect';
 import { FaHtml5, FaGithub, FaReact, FaPython, FaJava, FaCss3, FaNodeJs } from 'react-icons/fa'
 
@@ -28,7 +28,7 @@ export default function About() {
                 />
             </div>
             <div className='about-img'>
-            <img src={photo} alt='capricorn-goat' className='abt-img' />
+            <img src={photo} alt='an image of myself near Dallas skyline' className='abt-img' />
             </div>
            
             <p className='abt-paras'>

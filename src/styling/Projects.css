@@ -1,9 +1,40 @@
 /* TIC TAC TOE */
 .projects-div {
   margin-top: 15%;
+  font-family: 'Roboto Mono', sans-serif;
 }
 
-.example {
+h1 {
+  font-size: 1.6rem;
+  color: #412234;
+}
+
+h6 {
+  width: 60%;
+  margin-left: 20%;
+}
+
+p {
+  width: 70%;
+  margin-left: 15%;
+}
+
+em {
+  color: #B49FCC;
+}
+
+.links {
+  display: flex;
+  margin-left: 48%;
+  text-decoration: none;
+  color: #412234
+}
+
+.links:hover {
+  color: #B49FCC
+}
+
+/* .example {
     cursor: pointer;
     height: 300px;
     position: relative;
@@ -53,10 +84,14 @@
     opacity: 1;
     transform: translateY(0px);
     -webkit-transform: translateY(0px);
-  }
+  } */
 
   /* NUMBER 2 */
   /* TIC TAC TOE */
+  /* .caro-img {
+    width: 600px;
+    height: 600px;
+  }
 .example2 {
     cursor: pointer;
     height: 300px;
@@ -108,11 +143,16 @@
     opacity: 1;
     transform: translateY(0px);
     -webkit-transform: translateY(0px);
-  }
+  } */
 
-  .pro-cont {
+  /* .pro-cont {
       display: flex;
-  }
+  } */
+
+  /* .carousel {
+    margin-left: 25%;
+    margin-top: 2%;
+  } */
 
 
   @media only screen and (max-width: 480px) {
